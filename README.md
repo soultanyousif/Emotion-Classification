@@ -46,9 +46,8 @@ Both models share a similar 3-layer recurrent architecture designed for sequenti
 
 | Metric | LSTM Model | GRU Model |
 | :--- | :--- | :--- |
-| **Test Loss** | **0.1258** | 0.1943 |
 | **Test Accuracy** | **96.56%** | 94.06% |
-| **Best Epoch** | Epoch 9 | Epoch 11 |
+| **Best Epoch** | Epoch 8 | Epoch 10 |
 
 ### 2- Analysis
 -   **Convergence**: Both models converged within 20 epochs. The LSTM reached its optimal state slightly faster (Epoch 9) compared to the GRU (Epoch 11).
